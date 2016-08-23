@@ -21,7 +21,7 @@
     "M13OrderedDictionary.{h,m}",
     "yaml-0.1.4/config.h"
   ],
-  "public_header_files": "YAMLSerialization.h",
+  "public_header_files": "*.h",
   "requires_arc": false,
   "dependencies": {
     "LibYAML": [
