@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		169566221D6BF08600564A25 /* M13OrderedDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 169566201D6BF08600564A25 /* M13OrderedDictionary.h */; };
-		169566231D6BF08600564A25 /* M13OrderedDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 169566201D6BF08600564A25 /* M13OrderedDictionary.h */; };
+		169566221D6BF08600564A25 /* M13OrderedDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 169566201D6BF08600564A25 /* M13OrderedDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		169566231D6BF08600564A25 /* M13OrderedDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 169566201D6BF08600564A25 /* M13OrderedDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		169566241D6BF08600564A25 /* M13OrderedDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 169566211D6BF08600564A25 /* M13OrderedDictionary.m */; };
 		169566251D6BF08600564A25 /* M13OrderedDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 169566211D6BF08600564A25 /* M13OrderedDictionary.m */; };
+		16B6FABB1D6EC95100D59238 /* YAMLFrameworkOrdered.h in Headers */ = {isa = PBXBuildFile; fileRef = 16B6FABA1D6EC8D400D59238 /* YAMLFrameworkOrdered.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16B6FABC1D6EC95200D59238 /* YAMLFrameworkOrdered.h in Headers */ = {isa = PBXBuildFile; fileRef = 16B6FABA1D6EC8D400D59238 /* YAMLFrameworkOrdered.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
 		B6A4325D1C2708F7007FB63C /* YAMLFrameworkOrdered.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC2EF5B0486A6940098B216 /* YAMLFrameworkOrdered.framework */; };
 		B6A432661C270973007FB63C /* YAMLUnitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D319EEB613E5EE2A000EB46D /* YAMLUnitTests.m */; };
@@ -125,6 +127,7 @@
 		089C1667FE841158C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		169566201D6BF08600564A25 /* M13OrderedDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M13OrderedDictionary.h; sourceTree = "<group>"; };
 		169566211D6BF08600564A25 /* M13OrderedDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M13OrderedDictionary.m; sourceTree = "<group>"; };
+		16B6FABA1D6EC8D400D59238 /* YAMLFrameworkOrdered.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YAMLFrameworkOrdered.h; sourceTree = "<group>"; };
 		32DBCF5E0370ADEE00C91783 /* YAML_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAML_Prefix.pch; sourceTree = "<group>"; };
 		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DC2EF5B0486A6940098B216 /* YAMLFrameworkOrdered.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YAMLFrameworkOrdered.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -269,6 +272,7 @@
 		08FB77AEFE84172EC02AAC07 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				16B6FABA1D6EC8D400D59238 /* YAMLFrameworkOrdered.h */,
 				169566201D6BF08600564A25 /* M13OrderedDictionary.h */,
 				169566211D6BF08600564A25 /* M13OrderedDictionary.m */,
 				EBF83D89124D7A3E008517E5 /* YAMLSerialization.h */,
@@ -364,6 +368,7 @@
 			files = (
 				EBF83D8B124D7A3E008517E5 /* YAMLSerialization.h in Headers */,
 				169566221D6BF08600564A25 /* M13OrderedDictionary.h in Headers */,
+				16B6FABB1D6EC95100D59238 /* YAMLFrameworkOrdered.h in Headers */,
 				EB8C1AB014B795CC00BCDC1A /* yaml.h in Headers */,
 				EB8C1AC214B795E200BCDC1A /* yaml_private.h in Headers */,
 				EB8C1AC414B7964500BCDC1A /* config.h in Headers */,
@@ -376,6 +381,7 @@
 			files = (
 				B6A432B21C27CE8F007FB63C /* YAMLSerialization.h in Headers */,
 				169566231D6BF08600564A25 /* M13OrderedDictionary.h in Headers */,
+				16B6FABC1D6EC95200D59238 /* YAMLFrameworkOrdered.h in Headers */,
 				B6A432B51C27CEB0007FB63C /* yaml.h in Headers */,
 				B6A432B31C27CEB0007FB63C /* config.h in Headers */,
 				B6A432B41C27CEB0007FB63C /* yaml_private.h in Headers */,
@@ -681,8 +687,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
 				DEPLOYMENT_LOCATION = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -692,6 +701,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = YAML_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MODULEMAP_FILE = "$(SRCROOT)/module.modulemap";
 				OTHER_CFLAGS = "-DHAVE_CONFIG_H";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034Identifier}";
 				PRODUCT_NAME = YAMLFrameworkOrdered;
@@ -704,8 +715,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
 				DEPLOYMENT_LOCATION = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -713,6 +726,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = YAML_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MODULEMAP_FILE = "$(SRCROOT)/module.modulemap";
 				OTHER_CFLAGS = "-DHAVE_CONFIG_H";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034Identifier}";
 				PRODUCT_NAME = YAMLFrameworkOrdered;
@@ -867,12 +882,12 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				INFOPLIST_FILE = "YAML iOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "$(SRCROOT)/module.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_CFLAGS = "-DHAVE_CONFIG_H";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.YAML;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.YAMLFrameworkOrdered;
 				PRODUCT_NAME = YAMLFrameworkOrdered;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -917,12 +932,12 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				INFOPLIST_FILE = "YAML iOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "$(SRCROOT)/module.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_CFLAGS = "-DHAVE_CONFIG_H";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.YAML;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.YAMLFrameworkOrdered;
 				PRODUCT_NAME = YAMLFrameworkOrdered;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
